@@ -4,15 +4,8 @@ language: c
 
 env:
   global:
-    # for the latest public release
-    # - GAPCONTAINER="gapsystem/gap-docker"
-    # - GAPDIRNAME="gap4r8"
-    # for the tests of the stable-4.8 branch
-    # - GAPCONTAINER="gapsystem/gap-docker-stable"
-    # - GAPDIRNAME="gap-stable-4.8"
-    # for the tests of the master branch
-    - GAPCONTAINER="gapsystem/gap-docker-master"
-    - GAPDIRNAME="gap-master"
+    - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
+    - GAPDIRNAME="gap-stable-4.10"
 
   matrix:
     - REPO_NAME=gap-packages/4ti2gap
