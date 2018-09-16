@@ -15,17 +15,34 @@ cd ${PKG_NAME}
 
 ###############################################################################
 #
+
+if [[ -f prerequisites.sh ]]
+then
+  ./prerequisites.sh
+fi
+
 # The next block is borrowed from 
-# https://github.com/gap-packages/example/blob/master/scripts/build_pkg.sh
+# https://github.com/gap-system/gap/blob/master/bin/BuildPackages.sh
 #
 # build this package, if necessary
-if [[ -x autogen.sh ]]; then
-    ./autogen.sh
+#
+# We want to know if this is an autoconf configure script
+# or not, without actually executing it!
+if [[ -f autogen.sh && ! -f configure ]]
+then
+  ./autogen.sh
+fi
+if [[ -f "configure" ]]
+then
+  if grep Autoconf ./configure > /dev/null
+  then
     ./configure --with-gaproot=/home/gap/inst/${GAPDIRNAME}
-    make -j4 V=1
-elif [[ -x configure ]]; then
+  else
     ./configure /home/gap/inst/${GAPDIRNAME}
-    make -j4
+  fi
+  make
+else
+  echo "No building required for $PKG"
 fi
 
 # set up a custom GAP root containing only this package, so that
