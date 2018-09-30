@@ -14,6 +14,7 @@ env:
     - REPO_NAME=gap-packages/alnuth # ALgebraic NUmber THeory for GAP
     - REPO_NAME=gap-packages/anupq # The ANUPQ GAP package
     - REPO_NAME=gap-packages/autodoc # A GAP Package to produce documentations
+    - REPO_NAME=gap-packages/automata # A GAP package on automata
     - REPO_NAME=gap-packages/autpgrp # Computing the Automorphism Group of a p-Group
     - REPO_NAME=gap-packages/biogap # GAP package for abstract algebraic algorithms in phylogeny (bacterial genomics)
     - REPO_NAME=gap-packages/carat # Interface to CARAT, a crystallographic groups package
