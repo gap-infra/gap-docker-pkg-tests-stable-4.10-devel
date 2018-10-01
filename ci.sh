@@ -3,13 +3,14 @@
 set -e
 
 SRCDIR=${SRCDIR:-$PWD}
-PKG_NAME="$(cut -d'/' -f2 <<< ${REPO_NAME})"
+# `-f5` relies on format https://provider.com/username/packagename
+PKG_NAME="$(cut -d'/' -f5 <<< ${REPO_URL})"
 
-echo SRCDIR    : $SRCDIR
-echo REPO_NAME : $REPO_NAME
-echo PKG_NAME  : $PKG_NAME
+echo SRCDIR   : $SRCDIR
+echo REPO_URL : $REPO_URL
+echo PKG_NAME : $PKG_NAME
 
-git clone https://github.com/${REPO_NAME}
+git clone ${REPO_URL}
 
 cd ${PKG_NAME}
 
