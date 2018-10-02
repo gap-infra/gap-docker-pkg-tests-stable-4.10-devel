@@ -108,6 +108,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/singular # A GAP interface to Singular
     - REPO_URL=https://github.com/gap-packages/SingularInterface # A GAP package for accessing Singular from within GAP
     - REPO_URL=https://github.com/gap-packages/smallgrp # The GAP Small Groups Library
+    - REPO_URL=https://github.com/gap-packages/sonata # System of nearrings and their applications
     - REPO_URL=https://github.com/gap-packages/sophus # Computing in nilpotent Lie algebras
     - REPO_URL=https://github.com/gap-packages/subsemi # GAP package for enumerating subsemigroups of semigroups by several different search algorithms.
     - REPO_URL=https://github.com/vlaver/Thelma
