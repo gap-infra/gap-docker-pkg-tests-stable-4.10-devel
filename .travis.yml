@@ -50,6 +50,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/gapbench # Some benchmarks for the GAP system.
     - REPO_URL=https://github.com/gap-packages/GAPQuickcheck # Library for property testing in GAP
     - REPO_URL=https://github.com/gap-packages/genss # The GAP package genss for randomised Schreier-Sims
+    - REPO_URL=https://github.com/gap-packages/grape
     - REPO_URL=https://github.com/gap-packages/groupoids # GAP package groupoids (algorithms for finite groupoids) 
     - REPO_URL=https://github.com/gap-packages/grpconst # Constructing the Groups of a Given Order
     - REPO_URL=https://github.com/gap-packages/guarana # Applications of Lie methods for computations with infinite polycyclic groups
