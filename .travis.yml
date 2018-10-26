@@ -22,6 +22,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/circle # Adjoint groups of finite rings
     - REPO_URL=https://github.com/gap-packages/cohomolo # Cohomology groups of finite groups on finite modules
     - REPO_URL=https://github.com/gap-packages/congruence # Congruence subgroups of SL(2,Integers)
+    - REPO_URL=https://github.com/gap-packages/crime
     - REPO_URL=https://github.com/bh11/crisp
     - REPO_URL=https://github.com/gap-packages/crypting # Hashes and Crypto in GAP
     - REPO_URL=https://github.com/gap-packages/cryst # Computing with crystallographic groups
@@ -31,6 +32,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/datastructures # Package for Standard Datastructures for (HPC-)GAP
     - REPO_URL=https://github.com/gap-packages/debugger # Debugging and Breakpoints for GAP
     - REPO_URL=https://github.com/duskydolphin/DeepThoughtPackage
+    - REPO_URL=https://github.com/gap-packages/design
     - REPO_URL=https://github.com/dylanpeifer/difsets
     - REPO_URL=https://github.com/gap-packages/Digraphs # The GAP package Digraphs
     - REPO_URL=https://github.com/frankluebeck/EDIM
@@ -113,6 +115,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/sophus # Computing in nilpotent Lie algebras
     - REPO_URL=https://github.com/gap-packages/subsemi # GAP package for enumerating subsemigroups of semigroups by several different search algorithms.
     - REPO_URL=https://github.com/vlaver/Thelma
+    - REPO_URL=https://github.com/gap-packages/tomlib
     - REPO_URL=https://github.com/gap-packages/toric # toric is a GAP package (gap-system.org) for doing computations with toric varieties.
     - REPO_URL=https://github.com/hulpke/transgrp
     - REPO_URL=https://github.com/gap-packages/unipot # Computing with elements of unipotent subgroups of Chevalley groups
