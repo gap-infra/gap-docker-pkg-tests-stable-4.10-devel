@@ -66,6 +66,7 @@ env:
     - REPO_URL=https://github.com/bh11/irredsol.git
     - REPO_URL=https://github.com/gap-packages/json.git
     - REPO_URL=https://github.com/gap-packages/JupyterKernel.git
+    - REPO_URL=https://github.com/nathancarter/jupyterviz.git
     - REPO_URL=https://github.com/gap-packages/kan.git
     - REPO_URL=https://github.com/gap-packages/kbmag.git
     - REPO_URL=https://github.com/gap-packages/kerneltest.git 
