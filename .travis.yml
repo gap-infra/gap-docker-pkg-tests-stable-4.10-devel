@@ -78,6 +78,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/MapClass.git
     - REPO_URL=https://github.com/hulpke/matgrp.git
     - REPO_URL=https://github.com/gap-packages/MathInTheMiddle.git
+    - REPO_URL=https://github.com/MWhybrow92/MajoranaAlgebras.git
     - REPO_URL=https://github.com/gap-packages/matrixss.git
     - REPO_URL=https://github.com/gap-packages/meataxe64.git
     - REPO_URL=https://github.com/gap-packages/Memoisation.git
