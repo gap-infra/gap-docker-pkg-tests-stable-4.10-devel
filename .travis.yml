@@ -94,6 +94,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/permut.git
     - REPO_URL=https://github.com/gap-packages/polenta.git
     - REPO_URL=https://github.com/gap-packages/polycyclic.git
+    - REPO_URL=https://github.com/FKlie/Predicata.git
     - REPO_URL=https://github.com/gap-packages/primgrp.git
     - REPO_URL=https://github.com/gap-packages/profiling.git
     - REPO_URL=https://github.com/gap-packages/qaos.git
