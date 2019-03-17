@@ -8,6 +8,7 @@ env:
     - GAPDIRNAME="gap-stable-4.10"
 
   matrix:
+    - REPO_URL=https://github.com/ffloresbrito/aaa.git
     - REPO_URL=https://github.com/gap-packages/4ti2gap.git
     - REPO_URL=https://github.com/gap-packages/ace.git
     - REPO_URL=https://github.com/gap-packages/aclib.git
@@ -18,6 +19,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/autpgrp.git
     - REPO_URL=https://github.com/gap-packages/biogap.git
     - REPO_URL=https://github.com/gap-packages/carat.git
+    - REPO_URL=https://github.com/lbfm-rwth/CaratInterface.git
     - REPO_URL=https://github.com/gap-packages/Char0Gauss.git
     - REPO_URL=https://github.com/gap-packages/circle.git
     - REPO_URL=https://github.com/gap-packages/cohomolo.git
@@ -48,6 +50,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/fr.git
     - REPO_URL=https://github.com/gap-packages/FrancyMonoids.git
     - REPO_URL=https://github.com/nzidaric/fsr.git
+    - REPO_URL=https://github.com/gap-packages/fwtree.git
     - REPO_URL=https://github.com/gap-packages/GaloisGroups.git
     - REPO_URL=https://github.com/gap-packages/gapbench.git
     - REPO_URL=https://github.com/gap-packages/GAPQuickcheck.git
@@ -73,6 +76,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/laguna.git
     - REPO_URL=https://github.com/gap-packages/liealgdb.git
     - REPO_URL=https://github.com/gap-packages/liepring.git
+    - REPO_URL=https://github.com/gap-packages/liering.git
     - REPO_URL=https://github.com/gap-packages/loops.git
     - REPO_URL=https://github.com/gap-packages/lpres.git
     - REPO_URL=https://github.com/MWhybrow92/MajoranaAlgebras.git
@@ -83,6 +87,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/meataxe64.git
     - REPO_URL=https://github.com/gap-packages/Memoisation.git
     - REPO_URL=https://github.com/gap-packages/modisom.git
+    - REPO_URL=https://github.com/le-on/ModularGroup.git
     - REPO_URL=https://github.com/pjastr/NoCK.git
     - REPO_URL=https://github.com/gap-packages/NormalizInterface.git
     - REPO_URL=https://github.com/gap-packages/nq.git
@@ -90,6 +95,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/openmath.git
     - REPO_URL=https://github.com/gap-packages/orb.git
     - REPO_URL=https://github.com/gap-packages/OrbitalGraphs.git
+    - REPO_URL=https://github.com/gap-packages/PARIInterface.git
     - REPO_URL=https://github.com/gap-packages/PatternClass.git
     - REPO_URL=https://github.com/gap-packages/permut.git
     - REPO_URL=https://github.com/gap-packages/polenta.git
@@ -99,6 +105,8 @@ env:
     - REPO_URL=https://github.com/gap-packages/profiling.git
     - REPO_URL=https://github.com/gap-packages/qaos.git
     - REPO_URL=https://github.com/gap-packages/qpa.git
+    - REPO_URL=https://github.com/oysteins/QPA2.git
+    - REPO_URL=https://github.com/gap-packages/quagroup.git
     - REPO_URL=https://github.com/gap-packages/radiroot.git
     - REPO_URL=https://github.com/gap-packages/rcwa.git
     - REPO_URL=https://github.com/gap-packages/recog.git
@@ -113,6 +121,7 @@ env:
     - REPO_URL=https://github.com/simpcomp-team/simpcomp.git
     - REPO_URL=https://github.com/gap-packages/singular.git
     - REPO_URL=https://github.com/gap-packages/SingularInterface.git
+    - REPO_URL=https://github.com/gap-packages/sla.git
     - REPO_URL=https://github.com/gap-packages/smallgrp.git
     - REPO_URL=https://github.com/gap-packages/sonata.git
     - REPO_URL=https://github.com/gap-packages/sophus.git
