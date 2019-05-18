@@ -33,6 +33,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/cvec.git
     - REPO_URL=https://github.com/gap-packages/datastructures.git
     - REPO_URL=https://github.com/gap-packages/debugger.git
+    - REPO_URL=https://gitlab.com/kaashif/decomp.git
     - REPO_URL=https://github.com/duskydolphin/DeepThoughtPackage.git
     - REPO_URL=https://github.com/gap-packages/design.git
     - REPO_URL=https://github.com/dylanpeifer/difsets.git
