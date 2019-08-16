@@ -61,6 +61,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/grpconst.git
     - REPO_URL=https://github.com/gap-packages/guarana.git
     - REPO_URL=https://github.com/gap-packages/guava.git
+    - REPO_URL=https://github.com/gap-packages/hap
     - REPO_URL=https://github.com/gap-packages/hecke.git
     - REPO_URL=https://github.com/gap-packages/idrel.git
     - REPO_URL=https://github.com/gap-packages/images.git
