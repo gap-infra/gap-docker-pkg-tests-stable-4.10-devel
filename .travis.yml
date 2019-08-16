@@ -125,6 +125,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/SingularInterface.git
     - REPO_URL=https://github.com/gap-packages/sla.git
     - REPO_URL=https://github.com/gap-packages/smallgrp.git
+    - REPO_URL=https://github.com/gap-packages/smallsemi.git
     - REPO_URL=https://github.com/gap-packages/sonata.git
     - REPO_URL=https://github.com/gap-packages/sophus.git
     - REPO_URL=https://github.com/gap-packages/subsemi.git
