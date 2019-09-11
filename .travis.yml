@@ -5,7 +5,6 @@ language: c
 env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
-    - GAPDIRNAME="gap-stable-4.10"
 
   matrix:
     - REPO_URL=https://github.com/ffloresbrito/aaa.git
@@ -148,8 +147,8 @@ services:
   - docker
 
 before_install:
-- docker pull ${GAPCONTAINER}
+  - docker pull ${GAPCONTAINER}
 
 script:
-    - docker version
-    - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "GAPDIRNAME=${GAPDIRNAME} REPO_URL=${REPO_URL} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
+  - docker version
+  - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "REPO_URL=${REPO_URL} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"

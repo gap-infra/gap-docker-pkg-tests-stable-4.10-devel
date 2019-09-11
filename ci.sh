@@ -40,9 +40,9 @@ if [[ -f "configure" ]]
 then
   if grep Autoconf ./configure > /dev/null
   then
-    ./configure --with-gaproot=/home/gap/inst/${GAPDIRNAME}
+    ./configure --with-gaproot=${GAP_HOME}
   else
-    ./configure /home/gap/inst/${GAPDIRNAME}
+    ./configure ${GAP_HOME}
   fi
   make
 else
@@ -57,7 +57,7 @@ ln -s $PWD gaproot/pkg/
 ###############################################################################
 
 # start GAP with custom GAP root, to ensure correct package version is loaded
-GAP="/home/gap/inst/${GAPDIRNAME}/bin/gap.sh -l $PWD/gaproot; --quitonbreak -q"
+GAP="${GAP_HOME}/bin/gap.sh -l $PWD/gaproot; --quitonbreak -q"
 
 echo ""
 echo "######################################################################"
