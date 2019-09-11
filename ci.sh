@@ -20,9 +20,16 @@ git log -n 1
 ###############################################################################
 #
 
+# for Semigroups package
 if [[ -f prerequisites.sh ]]
 then
   ./prerequisites.sh
+fi
+
+# for NormalizInterface
+if [[ -f build-normaliz.sh ]]
+then
+  ./build-normaliz.sh
 fi
 
 # The next block is borrowed from 
