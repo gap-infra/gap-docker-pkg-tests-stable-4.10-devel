@@ -61,7 +61,9 @@ env:
     - REPO_URL=https://github.com/gap-packages/guarana.git
     - REPO_URL=https://github.com/gap-packages/guava.git
     - REPO_URL=https://github.com/gap-packages/hap
+    - REPO_URL=https://github.com/gap-packages/hapcryst.git
     - REPO_URL=https://github.com/gap-packages/hecke.git
+    - REPO_URL=https://github.com/gap-packages/HeLP.git
     - REPO_URL=https://github.com/gap-packages/idrel.git
     - REPO_URL=https://github.com/gap-packages/images.git
     - REPO_URL=https://github.com/gap-packages/img.git
@@ -73,7 +75,6 @@ env:
     - REPO_URL=https://github.com/nathancarter/jupyterviz.git
     - REPO_URL=https://github.com/gap-packages/kan.git
     - REPO_URL=https://github.com/gap-packages/kbmag.git
-    - REPO_URL=https://github.com/gap-packages/kerneltest.git 
     - REPO_URL=https://github.com/gap-packages/laguna.git
     - REPO_URL=https://github.com/gap-packages/liealgdb.git
     - REPO_URL=https://github.com/gap-packages/liepring.git
@@ -96,6 +97,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/openmath.git
     - REPO_URL=https://github.com/gap-packages/orb.git
     - REPO_URL=https://github.com/gap-packages/OrbitalGraphs.git
+    - REPO_URL=https://github.com/gap-packages/PackageManager.git
     - REPO_URL=https://github.com/gap-packages/PARIInterface.git
     - REPO_URL=https://github.com/gap-packages/PatternClass.git
     - REPO_URL=https://github.com/gap-packages/permut.git
