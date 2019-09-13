@@ -1,5 +1,9 @@
 language: c
 
+branches:
+  only:
+    - master
+
 env:
   global:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
