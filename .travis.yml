@@ -151,8 +151,8 @@ services:
   - docker
 
 before_install:
+  - docker version
   - docker pull ${GAPCONTAINER}
 
 script:
-  - docker version
   - docker run -v $PWD:/home/gap/travis/ ${GAPCONTAINER} /bin/sh -c "REPO_URL=${REPO_URL} TERM=xterm LANG=en_GB.UTF-8 /home/gap/travis/ci.sh"
