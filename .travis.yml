@@ -19,6 +19,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/automata.git
     - REPO_URL=https://github.com/gap-packages/autpgrp.git
     - REPO_URL=https://github.com/gap-packages/biogap.git
+    - REPO_URL=https://github.com/gap-packages/BlissInterface.git
     - REPO_URL=https://github.com/gap-packages/carat.git
     - REPO_URL=https://github.com/lbfm-rwth/CaratInterface.git
     - REPO_URL=https://github.com/gap-packages/Char0Gauss.git
