@@ -9,27 +9,31 @@ env:
     - GAPCONTAINER="gapsystem/gap-docker-stable-4.10"
 
   matrix:
-    - REPO_URL=https://github.com/ffloresbrito/aaa.git
     - REPO_URL=https://github.com/gap-packages/4ti2gap.git
+    - REPO_URL=https://github.com/ffloresbrito/aaa.git
     - REPO_URL=https://github.com/gap-packages/ace.git
     - REPO_URL=https://github.com/gap-packages/aclib.git
     - REPO_URL=https://github.com/gap-packages/alnuth.git
     - REPO_URL=https://github.com/gap-packages/anupq.git
-    - REPO_URL=https://github.com/gap-packages/autodoc.git
+    - REPO_URL=https://github.com/gap-packages/AutoDoc.git
     - REPO_URL=https://github.com/gap-packages/automata.git
+    - REPO_URL=https://github.com/gap-packages/automgrp.git
     - REPO_URL=https://github.com/gap-packages/autpgrp.git
     - REPO_URL=https://github.com/gap-packages/biogap.git
+    - REPO_URL=https://github.com/gap-packages/BlissInterface.git
     - REPO_URL=https://github.com/gap-packages/carat.git
     - REPO_URL=https://github.com/lbfm-rwth/CaratInterface.git
     - REPO_URL=https://github.com/gap-packages/Char0Gauss.git
     - REPO_URL=https://github.com/gap-packages/circle.git
     - REPO_URL=https://github.com/gap-packages/cohomolo.git
     - REPO_URL=https://github.com/gap-packages/congruence.git
+    - REPO_URL=https://github.com/gap-packages/corelg.git
     - REPO_URL=https://github.com/gap-packages/crime.git
     - REPO_URL=https://github.com/bh11/crisp.git
     - REPO_URL=https://github.com/gap-packages/crypting.git
     - REPO_URL=https://github.com/gap-packages/cryst.git
     - REPO_URL=https://github.com/gap-packages/crystcat.git
+    - REPO_URL=https://github.com/gap-packages/cubefree.git
     - REPO_URL=https://github.com/gap-packages/curlInterface.git
     - REPO_URL=https://github.com/gap-packages/cvec.git
     - REPO_URL=https://github.com/gap-packages/datastructures.git
@@ -47,7 +51,6 @@ env:
     - REPO_URL=https://bitbucket.org/jdebeule/fining.git
     - REPO_URL=https://github.com/gap-packages/float.git
     - REPO_URL=https://github.com/gap-packages/format.git
-    # - REPO_URL=https://bitbucket.org/jdebeule/forms # This is mercurial repository
     - REPO_URL=https://github.com/gap-packages/FPLSA.git
     - REPO_URL=https://github.com/gap-packages/fr.git
     - REPO_URL=https://github.com/gap-packages/FrancyMonoids.git
@@ -62,7 +65,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/grpconst.git
     - REPO_URL=https://github.com/gap-packages/guarana.git
     - REPO_URL=https://github.com/gap-packages/guava.git
-    - REPO_URL=https://github.com/gap-packages/hap
+    - REPO_URL=https://github.com/gap-packages/hap.git
     - REPO_URL=https://github.com/gap-packages/hapcryst.git
     - REPO_URL=https://github.com/gap-packages/hecke.git
     - REPO_URL=https://github.com/gap-packages/HeLP.git
@@ -81,6 +84,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/liealgdb.git
     - REPO_URL=https://github.com/gap-packages/liepring.git
     - REPO_URL=https://github.com/gap-packages/liering.git
+    - REPO_URL=https://github.com/gap-packages/LocalNR.git
     - REPO_URL=https://github.com/gap-packages/loops.git
     - REPO_URL=https://github.com/gap-packages/lpres.git
     - REPO_URL=https://github.com/MWhybrow92/MajoranaAlgebras.git
@@ -92,6 +96,8 @@ env:
     - REPO_URL=https://github.com/gap-packages/Memoisation.git
     - REPO_URL=https://github.com/gap-packages/modisom.git
     - REPO_URL=https://github.com/le-on/ModularGroup.git
+    - REPO_URL=https://github.com/gap-packages/NautyTracesInterface.git
+    - REPO_URL=https://github.com/gap-packages/nilmat.git
     - REPO_URL=https://github.com/pjastr/NoCK.git
     - REPO_URL=https://github.com/gap-packages/NormalizInterface.git
     - REPO_URL=https://github.com/gap-packages/nq.git
@@ -105,6 +111,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/permut.git
     - REPO_URL=https://github.com/gap-packages/polenta.git
     - REPO_URL=https://github.com/gap-packages/polycyclic.git
+    - REPO_URL=https://github.com/gap-packages/polymaking.git
     - REPO_URL=https://github.com/FKlie/Predicata.git
     - REPO_URL=https://github.com/gap-packages/primgrp.git
     - REPO_URL=https://github.com/gap-packages/profiling.git
@@ -114,8 +121,10 @@ env:
     - REPO_URL=https://github.com/gap-packages/quagroup.git
     - REPO_URL=https://github.com/gap-packages/radiroot.git
     - REPO_URL=https://github.com/gap-packages/rcwa.git
+    - REPO_URL=https://github.com/gap-packages/rds.git
     - REPO_URL=https://github.com/gap-packages/recog.git
     - REPO_URL=https://github.com/gap-packages/RegisterPackageTNUMDemo.git
+    - REPO_URL=https://github.com/gap-packages/repsn.git
     - REPO_URL=https://github.com/gap-packages/resclasses.git
     - REPO_URL=https://github.com/gap-packages/scscp.git
     - REPO_URL=https://github.com/gap-packages/Semigroups.git
@@ -131,8 +140,10 @@ env:
     - REPO_URL=https://github.com/gap-packages/smallsemi.git
     - REPO_URL=https://github.com/gap-packages/sonata.git
     - REPO_URL=https://github.com/gap-packages/sophus.git
+    - REPO_URL=https://github.com/gap-packages/spinsym.git
     - REPO_URL=https://github.com/gap-packages/subsemi.git
-    - REPO_URL=https://github.com/vlaver/Thelma.git
+    - REPO_URL=https://github.com/gap-packages/SymbCompCC.git
+    - REPO_URL=https://github.com/gap-packages/Thelma.git
     - REPO_URL=https://github.com/gap-packages/tomlib.git
     - REPO_URL=https://github.com/gap-packages/toric.git
     - REPO_URL=https://github.com/hulpke/transgrp.git
