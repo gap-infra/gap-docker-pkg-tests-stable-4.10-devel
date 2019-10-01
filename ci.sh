@@ -3,9 +3,8 @@
 set -e
 
 SRCDIR=${SRCDIR:-$PWD}
-# `-f5` relies on format https://provider.com/username/packagename
-PKG_NAME="$(cut -d'/' -f5 <<< ${REPO_URL})"
-PKG_NAME="$(cut -d'.' -f1 <<< ${PKG_NAME})"
+# The following assumes that REPO_URL looks like this: https://provider.com/username/packagename.git
+PKG_NAME="$(basename ${REPO_URL} .git)"
 
 echo SRCDIR   : $SRCDIR
 echo REPO_URL : $REPO_URL
@@ -29,7 +28,7 @@ fi
 # for NormalizInterface
 if [[ -f build-normaliz.sh ]]
 then
-  ./build-normaliz.sh
+  ./build-normaliz.sh ${GAP_HOME}
 fi
 
 # The next block is borrowed from 
