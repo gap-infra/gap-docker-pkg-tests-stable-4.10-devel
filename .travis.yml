@@ -157,6 +157,7 @@ env:
     - REPO_URL=https://github.com/gap-packages/xmodalg.git
     - REPO_URL=https://github.com/gap-packages/YangBaxter.git
     - REPO_URL=https://github.com/gap-packages/ZeroMQInterface.git
+    - REPO_URL=https://github.com/vlaver/RAMEGA.git
 
 services:
   - docker
