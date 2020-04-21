@@ -120,6 +120,7 @@ env:
     - REPO_URL=https://github.com/oysteins/QPA2.git
     - REPO_URL=https://github.com/gap-packages/quagroup.git
     - REPO_URL=https://github.com/gap-packages/radiroot.git
+    - REPO_URL=https://github.com/gap-packages/RAMEGA.git
     - REPO_URL=https://github.com/gap-packages/rcwa.git
     - REPO_URL=https://github.com/gap-packages/rds.git
     - REPO_URL=https://github.com/gap-packages/recog.git
@@ -157,7 +158,6 @@ env:
     - REPO_URL=https://github.com/gap-packages/xmodalg.git
     - REPO_URL=https://github.com/gap-packages/YangBaxter.git
     - REPO_URL=https://github.com/gap-packages/ZeroMQInterface.git
-    - REPO_URL=https://github.com/vlaver/RAMEGA.git
 
 services:
   - docker
