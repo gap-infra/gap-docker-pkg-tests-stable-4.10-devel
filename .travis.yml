@@ -10,7 +10,7 @@ env:
 
   matrix:
     - REPO_URL=https://github.com/gap-packages/4ti2gap.git
-    - REPO_URL=https://github.com/ffloresbrito/aaa.git
+    - REPO_URL=https://github.com/gap-packages/aaa.git
     - REPO_URL=https://github.com/gap-packages/ace.git
     - REPO_URL=https://github.com/gap-packages/aclib.git
     - REPO_URL=https://github.com/gap-packages/alnuth.git
